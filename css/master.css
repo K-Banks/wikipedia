@@ -1,3 +1,6 @@
+.panel {
+  margin-top: 5px;
+}
 div.green {
   background-color: #f5fffa;
   border: 1px solid #a3bfb1;
@@ -30,18 +33,41 @@ div.purple h2 {
   background-color: #f9f9f9;
   border: 1px solid #ddd;
 }
-.panel-header {
+.panel-title {
   padding: .2em .4em;
+  margin-top: .2em;
 }
 .list ul{
   float: right;
   padding-top: 15px;
 }
+.sidebar p {
+  padding-left: 5%;
+  line-height: 1em;
+  font-size: 0.75em;
 
+}
 .wikipedia {
   text-align: center;
   height: auto;
 }
 .purple .panel-body {
   text-align: center;
+}
+.sidebar  {
+  display: block;
+  width: 10%;
+  float: left;
+  background-color: lightgrey;
+}
+.sidebar img{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  margin-bottom: 2em;
+}
+.container {
+  float: right;
+  border: 1px solid #a3b0bf;
+  padding: 2% 3%;
 }
