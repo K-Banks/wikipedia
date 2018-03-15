@@ -56,9 +56,10 @@ div.purple h2 {
 }
 .sidebar  {
   display: block;
-  width: 10%;
+  width: 12%;
   float: left;
-  background-color: lightgrey;
+  background-color: #f1f0f0;
+  height: 100vh;
 }
 .sidebar img{
   margin-left: auto;
@@ -70,4 +71,10 @@ div.purple h2 {
   float: right;
   border: 1px solid #a3b0bf;
   padding: 2% 3%;
+}
+h5 {
+  margin-top: 2.5em;
+  padding-left: 5%;
+  line-height: 1em;
+  font-size: 0.75em;
 }
