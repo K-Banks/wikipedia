@@ -10,3 +10,30 @@ div.blue {
 div.blue h2 {
   background-color: #cedff2;
 }
+div.purple {
+  background-color: #faf5ff;
+}
+div.purple h2 {
+  background-color: #ddcef2;
+}
+.welcome h1 {
+  font-size: 20px;
+}
+.welcome {
+  padding: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  margin: 5px 10px;
+}
+
+.list ul{
+  float: right;
+}
+
+.wikipedia {
+  text-align: left;
+  height: auto;
+}
+.purple .panel-body {
+  text-align: center;
+}
