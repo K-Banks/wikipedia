@@ -1,20 +1,26 @@
 div.green {
   background-color: #f5fffa;
+  border: 1px solid #a3bfb1;
 }
 div.green h2 {
   background-color: #cef2e0;
+  border: 1px solid #a3bfb1;
 }
 div.blue {
   background-color: #f5faff;
+  border: 1px solid #a3b0bf;
 }
 div.blue h2 {
   background-color: #cedff2;
+  border: 1px solid #a3b0bf;
 }
 div.purple {
   background-color: #faf5ff;
+  border: 1px solid #afa3bf;
 }
 div.purple h2 {
   background-color: #ddcef2;
+  border: 1px solid #afa3bf;
 }
 .welcome h1 {
   font-size: 20px;
@@ -23,15 +29,17 @@ div.purple h2 {
   padding: 5px;
   background-color: #f9f9f9;
   border: 1px solid #ddd;
-  margin: 5px 10px;
 }
-
+.panel-header {
+  padding: .2em .4em;
+}
 .list ul{
   float: right;
+  padding-top: 15px;
 }
 
 .wikipedia {
-  text-align: left;
+  text-align: center;
   height: auto;
 }
 .purple .panel-body {
